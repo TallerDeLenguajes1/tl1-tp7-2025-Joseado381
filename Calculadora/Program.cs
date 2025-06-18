@@ -7,6 +7,7 @@ System.Console.WriteLine("Bienvenido a la calculadora");
 //  se sumara el dato con el termino
 Calculadora miCalculadora = new Calculadora();
 
+System.Console.WriteLine("Ten en cuenta que el termino realizara la operacion respectiva con el dato inicial 0");
 do
 {
     System.Console.WriteLine($"\nResultado actual (Dato): {miCalculadora.Resultado}");
